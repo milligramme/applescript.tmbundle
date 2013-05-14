@@ -12,7 +12,7 @@ content () {
 }
 
 osascript &lt;&lt;-APPLESCRIPT
-	tell application "Script Editor"
+	tell application "AppleScript Editor"
 	    activate
 	    set theDocument to make new document
 	    tell theDocument
